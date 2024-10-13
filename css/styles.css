@@ -660,20 +660,17 @@ textarea {
 
 .form-btn-close:hover > svg,
 .form-btn-close:focus > svg {
-  border: none;
-  background-color: #404bbf;
+  border: none !important;
+  background-color: #404bbf !important;
 }
 
 .icon-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-svg > .icon-close:hover {
-  fill: #ffffff;
-}
-
-svg > .icon-close:focus {
-  fill: #ffffff;
+.icon-close:hover,
+.icon-close:focus {
+  fill: #ffffff !important;
 }
 
 .form-title {
