@@ -531,19 +531,8 @@ img {
   background-color: #31d0aa;
 }
 
-.icon-frame {
-  fill: #f4f4fd;
-}
-
-.form-labelf {
-  border: 1px solid #fff;
-  border-radius: 4px;
-  width: 264px;
-  height: 40px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-}
-
 .subscribe {
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -551,33 +540,51 @@ img {
   color: #fff;
 }
 
-.form-input-emaile {
+.form-footer {
   display: flex;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  border: 1px solid #fff;
-  border-radius: 4px;
-  width: 264px;
-  height: 40px;
-  background-color: #2e2f42;
-  gap: 8px;
 }
 
-.bth-subscribe {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.form-labelf {
+  gap: 24px;
+}
+
+.form-input-emaile {
+  border: 1px solid #fff;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  font-size: 12px;
+  padding-left: 16px;
+  border-radius: 4px;
+  color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .bthsub {
+  min-width: 165px;
+  height: 40px;
   display: flex;
   justify-content: center;
-
+  align-items: center;
+  font-family: "Roboto", sans-serif;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
-  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
   background: #4d5ae5;
-  color: #f4f4fd;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.icon-frame {
+  fill: #f4f4fd;
+  margin-left: 16px;
 }
 
 .modal-overlay {
