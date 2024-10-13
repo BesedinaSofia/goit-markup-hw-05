@@ -668,11 +668,11 @@ textarea {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-close:hover {
+svg > .icon-close:hover {
   fill: #ffffff;
 }
 
-.icon-close:focus {
+svg > .icon-close:focus {
   fill: #ffffff;
 }
 
