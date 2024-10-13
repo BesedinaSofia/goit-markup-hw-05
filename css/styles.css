@@ -658,10 +658,15 @@ textarea {
   fill: #000;
 }
 
-.form-btn-close:hover > svg,
-.form-btn-close:focus > svg {
-  border: none !important;
-  background-color: #404bbf !important;
+.form-btn-close:hover {
+  background-color: #404bbf;
+  border: none;
+}
+
+.form-btn-close:focus {
+  background-color: #404bbf;
+  border: none;
+  outline: none;
 }
 
 .icon-close {
