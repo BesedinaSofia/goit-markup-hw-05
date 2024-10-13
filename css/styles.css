@@ -603,7 +603,6 @@ img {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 1;
   pointer-events: none;
-  transition: opacity 250ms ease-in-out;
 }
 
 .modal-overlay.is-open {
@@ -655,8 +654,8 @@ textarea {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-btn-close:hover,
-.form-btn-close:focus {
+button:hover > svg,
+button:focus > svg {
   border: none;
   background-color: #404bbf;
 }
@@ -681,11 +680,9 @@ textarea {
 }
 
 .form {
-  display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   gap: 12px;
-  padding: 8px;
 }
 
 .form-group {
@@ -732,7 +729,7 @@ textarea {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input-wrap .input:focus + .icon-m {
+input:focus + svg {
   fill: #4d5ae5;
 }
 
@@ -781,7 +778,7 @@ textarea {
   fill: transparent;
 }
 
-.form-checkbox:checked .form-custom-checkbox svg {
+.form-checkbox:checked + .form-accept-label .form-custom-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
