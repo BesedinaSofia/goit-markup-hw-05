@@ -503,6 +503,7 @@ img {
 .icon_listf {
   display: flex;
   gap: 16px;
+  margin-right: 80px;
 }
 
 .iconf_link {
